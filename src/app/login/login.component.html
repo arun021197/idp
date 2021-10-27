@@ -16,11 +16,11 @@
                         <form>
                             <div class="form-group">
                                 <label class="form-control-label">USERNAME</label>
-                                <input type="text" class="form-control">
+                                <input type="text" #myname class="form-control">
                             </div>
                             <div class="form-group">
                                 <label class="form-control-label">PASSWORD</label>
-                                <input type="password" class="form-control" i>
+                                <input type="password" #mypass class="form-control" i>
                                 <label class="form-control-label">Forget Password?</label>
                             </div>
 
@@ -29,7 +29,7 @@
                                     <!-- Error Message -->
                                 </div>
                                 <div class="col-lg-6 login-btm login-button">
-                                    <button type="submit" class="btn btn-outline-primary">LOGIN</button>
+                                    <button type="submit" routerLink="home" class="btn btn-outline-primary" (click)="login(myname.value,mypass.value)">LOGIN</button>
                                 </div>
                             </div>
                         </form>

@@ -18,13 +18,14 @@ import { OnepieceComponent } from './story/onepiece/onepiece.component';
 import { StoryComponent } from './story/story.component';
 
 const routes: Routes = [
+  
   {
     path:"home",
     component:HomeComponent,
   },
   {
     path:"",
-    component:HomeComponent,
+    component:SignupComponent,
   },
   {
     path:"news",
@@ -48,6 +49,8 @@ const routes: Routes = [
       path:'dragonballz',
       component:DragonballzComponent,
     },
+
+    
   
   
   ]

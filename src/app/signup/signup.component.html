@@ -11,21 +11,25 @@
 		</div>
 		<div class="or-seperator"><b>or</b></div>
         <div class="form-group">
-        	<input type="text" class="form-control input-lg" name="username" placeholder="Username" required="required">
+        	<input type="text" #myname class="form-control input-lg" name="username" placeholder="Username" required="required" autocomplete="off">
+            <span [style.color]="color">{{alertname}}</span>
         </div>
 		<div class="form-group">
-        	<input type="email" class="form-control input-lg" name="email" placeholder="Email Address" required="required">
+        	<input type="email" class="form-control input-lg" name="email" placeholder="Email Address" required="required"  autocomplete="off">
         </div>
 		<div class="form-group">
-            <input type="password" class="form-control input-lg" name="password" placeholder="Password" required="required">
+            <input type="password" #mypass class="form-control input-lg" name="password" placeholder="Password" required="required"  autocomplete="off">
+            <span [style.color]="color">{{alertpass1}}</span>
         </div>
 		<div class="form-group">
-            <input type="password" class="form-control input-lg" name="confirm_password" placeholder="Confirm Password" required="required">
+            <input type="password" #cpass class="form-control input-lg" name="confirm_password" placeholder="Confirm Password" required="required"  autocomplete="off">
+        <span [style.color]="color">{{alertpass}}</span>
         </div>  
         <div class="form-group">
-            <button type="submit" class="btn btn-success btn-lg btn-block signup-btn">Sign Up</button>
+            <button type="submit" (click)="abc(myname.value,mypass.value,cpass.value)" routerLink="login" class="btn btn-success btn-lg btn-block signup-btn">Sign Up</button>
         </div>
-        <div class="text-center">Already have an account? <a href="#">Login here</a></div>
+        <div class="text-center">Already have an account? <a routeLink="login">Login here</a></div>
     </form>
    
 </div>
+<router-outlet></router-outlet>
