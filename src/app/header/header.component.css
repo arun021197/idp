@@ -1,0 +1,71 @@
+.navbar-content   {
+    margin-left:200px;
+    
+}
+.navbar-content ul  a{
+    color:white;
+}
+.navbar-content li:hover{
+background-color:black;
+
+}
+.navbar-header a{
+    font-size: 30px;
+}
+.navbar-brand{
+    color:white;
+}
+.redtxt:hover{
+    color:red;
+}
+.red1{
+    color:red;
+    font-size: 18px;
+}
+.caret{
+    color:red;
+}
+ul.dropdown-menu {
+background-color: black;
+border-radius: 8px;
+}
+ul.dropdown-menu :hover {
+    background-color: red;
+}
+
+ul.dropdown-menu li a{
+ color: white;
+}
+.searchbar{
+    border:none;
+    border-bottom: 1px solid red;
+    background-color: rgb(34,34,34);
+    margin-top:10px;
+    margin-left:80px;
+}
+.btncolor{
+    color:red;
+    border:none;
+    border-bottom: 1px solid red;
+    background-color: rgb(34,34,34);
+}
+.ls{
+    margin-top:13px;
+    float:right;
+  
+}
+ .ls a{
+     margin-right:20px;
+     text-decoration: none;
+     color:white;
+    
+ }
+ 
+ .ls i{
+     color:red;
+ }
+ .ls a:hover{
+     color:white;
+ }
+  
+

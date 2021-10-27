@@ -1,0 +1,33 @@
+.header img{
+    float:left;
+    
+}
+
+.header h1{
+        font-size:70px;
+        color:white;
+      padding:40px;
+        text-align: center;
+}
+.header span{
+    color:red;
+   
+}
+.header{
+    background-color:black;
+    height:150px;
+}
+.intro p{
+    text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 2px;
+  text-indent: 60px;
+  color:white;
+}
+
+.intro span{
+    color:red;
+}
+.opworld img{
+    margin-left:120px;
+}

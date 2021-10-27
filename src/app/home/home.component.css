@@ -1,0 +1,320 @@
+ .opac{
+    opacity:0.4;
+    position:relative;
+}
+.optxt{
+    font-size: 70px;
+    font-weight:700;
+    color:#ffffff;
+}
+.optxt1{
+    color:#ffffff;
+    line-height: 1.8;
+}
+.carousalcontent{
+    position:absolute;
+    top:100px;
+    left:150px;
+   
+}
+.txtbut{
+    width:160px;
+    height:40px;
+    background-color:red;
+    color:white;
+    border:none;
+}
+.spanred{
+    color:red;
+}
+.txtbut:hover{
+    background-color: #1F1F1F;
+
+}
+
+.popular{
+    margin-top:70px;
+}
+
+.popular h3{
+    color:white;
+    margin-left:40px;
+}
+
+.redline{
+    margin-left:40px;
+    width:50px;
+    border:1px solid red;
+
+}
+.p1{
+    display:inline-block;
+    margin-top:30px;
+    margin-left:100px;
+  
+}
+.p1 img{
+    height:300px;
+}
+.t1{
+    display: inline-block;
+    margin-left:20px;
+    margin-top:30px;
+}
+.t1 img{
+    height:150px;
+    width:200px;
+}
+.w1{
+    display: inline-block;
+    margin-left:60px;
+    margin-top:30px;
+}
+.w1 img{
+    height:150px;
+    width:200px;
+    opacity: 0.6;
+}
+    
+    
+
+ .played1{
+    width:130px;
+    border:1px solid red;
+    margin:0;
+
+} 
+ .iconplay a{
+    position:absolute;
+    top:60px;
+    left:100px;
+} 
+.played2{
+    width:100%;
+    border:1px solid red;
+    margin:0;
+
+}
+.episode{
+    height:25px;
+    width:200px;
+    background-color: rgb(51,51,51);
+    color:white;
+    padding:3px;
+}
+.episode span{
+    float:right;
+} 
+
+
+
+
+
+   .container {
+    position: relative;
+   
+  }
+  
+  .image {
+    
+    width:150px;
+    height:250px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15px;
+    right: 0;
+    width:150px;
+    height:250px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: lightgray;
+  }
+  
+  .container:hover .overlay {
+    opacity: 0.8;
+  }
+  
+  .text img{
+  width:80px;
+  height:70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .movielist{
+    display: flex;
+  }
+  .container{
+     display: flex;
+      width:150px;
+      height:250px;
+     
+    
+  }
+
+
+
+
+  .moviesbtn button{
+      background-color: red;
+      border:none;
+      width:200px;
+      height:60px;
+      
+  }
+  .moviesbtn button:hover{
+      background-color:black;
+      color:red;
+      border:5px solid red;
+  }
+  .moviesbtn{
+      margin-top:40px;
+      text-align: center;
+  }
+  .moviesbtn a{
+      color:white;
+      font-size: 20px;
+      text-decoration: none;
+  
+  
+  }
+  
+
+
+  
+
+
+.plans{
+    background-color:black;
+    background-image: url('../../assets/img/bgplan2.jpg');
+    margin-top: 90px;
+    
+
+
+}
+.plantxt{
+    text-align: center;
+    padding:60px;
+ 
+}
+.plantxt p{
+    color:red;
+ font-size: 20px;
+}
+
+.plantxt h1{
+    font-size: 70px;
+    color:white;
+
+}
+.plantxt h4{
+    color:red;
+    font-size:22px;
+}
+
+  
+.row{
+    display: inline-block;
+    margin-left: 40px;
+   
+}
+.row1 .ulrow{
+display: inline-block;
+margin-left:20px;
+
+}
+
+.row1{
+    display: inline-block;
+    margin-left: 90px;
+}
+footer a{
+    text-decoration: none;
+ 
+}
+footer hr{
+   border: 1px solid red;
+}
+.row li{
+    list-style-type: none;
+}
+.text-center{
+    text-align: center;
+    padding:10px;
+    color:#F5f5f5;
+}
+footer{
+    background-color: rgb(34,34,34);
+    color:red;
+    
+}
+footer a{
+    color:lightgray;
+    line-height: 1.5;
+}
+footer h4{
+    font-size:20px;
+    margin-left:50px;
+}
+.fa:hover {
+    opacity: 0.8;
+    background-color: red;
+}
+
+.fa-facebook {
+  background: black;
+  
+  color: white;
+}
+.fa-twitter {
+    background: black;
+    color: white;
+  }
+  .fa-youtube {
+    background: black;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: black;
+    color: white;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+   border:1px solid lightgray;
+    border-radius: 20%;
+  }
+  .foot1{
+      margin-top:20px;
+      display: inline-block;
+  }
+  .foot2{
+      display: inline-block;
+  }
+ .foot1 input{
+     border:1px solid black;
+     height:30px;
+ }
+ .btnfoot{
+     background-color: red;
+     color:whitesmoke;
+     border-radius: 25px;
+     height:30px;
+
+ }
+ .btnfoot:hover{
+     background-color: whitesmoke;
+     color:red;
+ }

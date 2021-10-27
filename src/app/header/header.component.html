@@ -1,0 +1,49 @@
+<nav class="navbar navbar-inverse" style="height:70px;">
+    <div class="container-fluid" style="margin-top:10px;">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#" style="margin-top:-10px;"><i class="fa fa-play-circle-o" style="font-size:30px;padding-right:5px;color:red"></i>Anime<span class="red1">Stream</span></a>
+      </div>
+      <div class="navbar-content">
+
+        <ul class="nav navbar-nav">
+          <li><a routerLink="home"><span class="redtxt">Home</span></a></li>
+         
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" routerLink="story"><span class="redtxt">Popular Anime</span> <span class="caret"></span></a>
+    
+            <ul class="dropdown-menu">
+              <li><a routerLink="onepiece" (click)="op()">ONE PIECE</a></li>
+              <li><a routerLink="naruto"  (click)="n()" >NARUTO</a></li>
+              <li><a routerLink="dragonballz" (click)="dbz()">DRAGON BALL Z</a></li>
+            </ul>
+          </li>
+    
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" routerLink="characters"><span class="redtxt">Favorite Characters</span> <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a routerLink="luffy" (click)="luffy()">LUFFY</a></li>
+              <li><a routerLink="naruto" (click)="n1()">NARUTO</a></li>
+              <li><a routerLink="goku" (click)="goku()" >GOKU</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" routerLink="events"><span class="redtxt">Upcoming</span> <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a routerLink="event1" (click)="event1()">ONE PIECE(Episode 1000)</a></li>
+              <li><a routerLink="event2" (click)="event2()">TOKYO REVENGERS </a></li>
+              <li><a routerLink="event3" (click)="event3()">DEMON SLAYER(season2)</a></li>
+            </ul>
+        </li>
+        <li><a routerLink="news"><span class="redtxt">Manga News</span></a></li>
+        <input type="text"  class="searchbar " placeholder="Search.." name="search2" style="color:white;">
+      <button class="btncolor" type="submit"><i class="fa fa-search"></i></button>
+        </ul>
+    
+      </div>
+      
+ <div class="ls">
+      
+      <a  routerLink="signup"><i style="padding-right: 7px;" class="glyphicon glyphicon-user"></i>Create Account</a>
+
+      <a routerLink="login"><i style="padding-right: 7px;" class="glyphicon glyphicon-log-in"></i>Log In</a>
+    </div>
+    </div>
+  </nav>
+  <router-outlet></router-outlet>
